@@ -4,9 +4,9 @@ namespace Pnz\Metalink;
 
 class ApacheMetalink {
 
-    const PRIORITY_HTTP = 2;
-    const PRIORITY_FTP = 1;
-    const PRIORITY_BACKUP = 0;
+    const PRIORITY_HTTP = 7;
+    const PRIORITY_FTP = 3;
+    const PRIORITY_BACKUP = 1;
 
     protected $metalink;
     protected $baseUrl = 'http://www.apache.org/dyn/closer.cgi?path=';
