@@ -109,7 +109,7 @@ class Metalink {
 
     /**
      * @param string $mirror
-     * @param float $priority
+     * @param int $priority
      * @return $this
      */
     public function addMirror($mirror, $priority = 1)

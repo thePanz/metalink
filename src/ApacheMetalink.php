@@ -6,7 +6,7 @@ class ApacheMetalink {
 
     const PRIORITY_HTTP = 2;
     const PRIORITY_FTP = 1;
-    const PRIORITY_BACKUP = 0.2;
+    const PRIORITY_BACKUP = 0;
 
     protected $metalink;
     protected $baseUrl = 'http://www.apache.org/dyn/closer.cgi?path=';
