@@ -26,9 +26,11 @@ class ApacheMetalink {
         $this->initArchive();
     }
 
+    /**
+     * 
+     */
     protected function initArchive()
     {
-        echo $this->getUrl();
         $json = file_get_contents($this->getUrl());
         $data = json_decode($json, true);
 
