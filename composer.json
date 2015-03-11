@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Pnz\\Metalink": "src/"
+      "Pnz\\Metalink\\": "src/"
     }
   }
 }
