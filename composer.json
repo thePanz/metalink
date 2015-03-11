@@ -1,0 +1,22 @@
+{
+  "name": "pnz/metalink",
+  "description": "",
+  "keywords": ["metalink"],
+  "homepage": "https://github.com/thePanz/Metalink",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "thePanz",
+      "email": "thepanz@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Pnz\\Metalink": "src/"
+    }
+  }
+}
